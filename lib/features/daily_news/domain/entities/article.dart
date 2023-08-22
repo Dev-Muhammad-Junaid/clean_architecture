@@ -1,18 +1,19 @@
 import 'package:equatable/equatable.dart';
 
 class ArticleEntity extends Equatable {
-  final int? id;
-  final String? author;
-  final String? title;
-  final String? description;
-  final String? url;
-  final String? urlToImage;
-  final String? publishedAt;
-  final String? content;
+   int? id;
+   String? author;
+   String? title;
+   String? description;
+   String? url;
+   String? urlToImage;
+   String? publishedAt;
+   String? content;
 
-  const ArticleEntity(this.id, this.author, this.title, this.description,
+   ArticleEntity(this.id, this.author, this.title, this.description,
       this.url, this.urlToImage, this.publishedAt, this.content);
 
+  //equatable object, which object to use for comparision
   @override
   List<Object?> get props => [
         id,

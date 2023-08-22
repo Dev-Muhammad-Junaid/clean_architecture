@@ -48,10 +48,10 @@ dependencies:
   #date_time_format
   intl: ^0.18.1
 
-  #Database source code generator for stoiring data locally
+  #Database source code generator for storing data locally uses SQLite
   floor: ^1.4.2
 
-  #Hooks for sharing duplicated code
+  #Hooks for sharing duplicated code, manage lifecyle of widgets
   flutter_hooks: ^0.18.3
 
   #cached_network_image
@@ -85,6 +85,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
